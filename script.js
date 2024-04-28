@@ -1,6 +1,5 @@
 const apiUrl = `https://api.exchangerate-api.com/v4/latest/`;
 
-// Function to fetch exchange rate data for a specific currency
 function fetchExchangeRate(baseCurrency, targetCurrency) {
     return fetch(`${apiUrl}${baseCurrency}`)
         .then(response => {
@@ -17,7 +16,6 @@ function fetchExchangeRate(baseCurrency, targetCurrency) {
         });
 }
 
-// Function to calculate and display result
 function calculateAndDisplayResult(baseCurrency, targetCurrency) {
     const leftInput = document.querySelector('.left .mebleg');
     const rightInput = document.querySelector('.right .result');
@@ -33,7 +31,6 @@ function calculateAndDisplayResult(baseCurrency, targetCurrency) {
     }
 }
 
-// Add event listeners to left buttons
 const leftButtons = document.querySelectorAll('.left .btn');
 leftButtons.forEach(button => {
     button.addEventListener('click', () => {
@@ -45,7 +42,6 @@ leftButtons.forEach(button => {
     });
 });
 
-// Add event listeners to right buttons
 const rightButtons = document.querySelectorAll('.right .btn');
 rightButtons.forEach(button => {
     button.addEventListener('click', () => {

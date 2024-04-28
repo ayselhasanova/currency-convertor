@@ -30,19 +30,6 @@ ul>li {
     gap: 10px;
 }
 
-/* Footer */
-
-hr {
-    color: #666666;
-    width: 80%;
-    margin: auto;
-}
-
-.copyrights {
-    color: #666666;
-    padding: 10px;
-}
-
 /* Converter */
 .container-conventer {
     margin: auto;
@@ -78,15 +65,14 @@ button {
     font-weight: 500;
 }
 
-.btn-submit {
-    height: 50px;
-    width: 120px;
-    border-radius: 20%;
-    color: #f0f0f0;
-    font-size: 20px;
-    font-weight: 700;
-    -webkit-box-shadow: 0px 5px 10px rgba(91, 91, 91, 0.1);
-    box-shadow: 0px 5px 10px rgba(91, 91, 91, 0.1);
-    background-color: #176af094;
-    border-color: #ababab97;
+/* Footer */
+hr {
+    color: #666666;
+    width: 80%;
+    margin: auto;
+}
+
+.copyrights {
+    color: #666666;
+    padding: 10px;
 }
