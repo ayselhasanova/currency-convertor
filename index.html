@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AysBank</title>
+    <!-- === CSS links ==== -->
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google Fonts link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cookie&display=swap">
+    <!-- Font Awsesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="col-12 row justify-content-between align-items-center">
+            <div class="col-3 d-flex justify-content-center bank-logo">
+                <a href=""><img src="./img/aysbank.png" alt=""></a>
+            </div>
+            <div class="col-6 menu-list">
+                <ul class="d-flex justify-content-between" type="none">
+                    <li> <a href="">БАНК</a></li>
+                    <li> <a href="">БИЗНЕС</a></li>
+                    <li><a href="">ИНВЕСТИЦИИ </a></li>
+                    <li> <a href="">СТРАХОВАНИЕ</a></li>
+                    <li> <a href="">МОБАЙЛ</a></li>
+                    <li> <a href="">ПУТЕШЕСТВИЯ</a></li>
+                    <li> <a href="">РАЗВЛЕЧЕНИЯ</a></li>
+                </ul>
+            </div>
+            <div class="col-3 log-reg">
+                <ul class="d-flex align-items-center justify-content-center" type="none">
+                    <a href=""><i class="fa-regular fa-user"></i></a>
+                    <li><a href=" ">ВОЙТИ</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="converter">
+        <div class="container-conventer">
+            <div class="row justify-content-around align-items-center">
+                <div class="left">
+                    <div class="box-heading">
+                        <button value="RUB" class="btn btnRUB col-3 active">RUB</button>
+                        <button value="USD" class="btn btnUSD col-3">USD</button>
+                        <button value="EUR" class="btn btnEUR col-3">EUR</button>
+                        <button value="GBP" class="btn btnTRY col-3">GBP</button>
+                    </div>
+                    <div class="box-content">
+                        <input class="mebleg" type="text">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box-heading">
+                        <button value="RUB" class="btn btnRUB">RUB</button>
+                        <button value="USD" class="btn btnUSD active">USD</button>
+                        <button value="EUR" class="btn btnEUR">EUR</button>
+                        <button value="GBP" class="btn btnGBP">GBP</button>
+                    </div>
+                    <div class="box-content">
+                        <input class="result" type="text" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <hr class=" d-flex justify-content-center ">
+        <div class="row justify-content-center">
+            <div class="copyrights">
+                <p> Copyright © 2024 All rights are not reserved | This template is made by developer Aisel </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
